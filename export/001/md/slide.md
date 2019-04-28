@@ -19,3 +19,9 @@ highlightTheme: "darkula"
  - 平均
  - 分散
  - 分布
+
+ ---
+
+ ## 記述統計学
+
+ ---
