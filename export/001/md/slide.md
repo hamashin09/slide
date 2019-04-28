@@ -18,5 +18,4 @@ highlightTheme: "darkula"
 
  - 平均
  - 分散
- - 確率
  - 分布
