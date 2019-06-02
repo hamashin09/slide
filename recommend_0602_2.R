@@ -27,7 +27,7 @@ rownames(err) <- c("UBCF", "ICBF")
 ###evaluation result to csv
 #err.t <- rbind(data.frame(),calcPredictionAccuracy(p.ubcf, getData(e, "unknown")), calcPredictionAccuracy(p.ibcf, getData(e, "unknown")))
 err.result <- data.frame(err)
-err.result <- data.frame("user"=rownames(err.result), err.result)
+err.result <- data.frame("method"=rownames(err.result), err.result)
 write_csv(err.result, path = "/Users/uragami/Documents/Rcode/EC/err_result.csv", col_names = T)
 #----------------------------------------
 
